@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Juho Jeon"
-  pronouns         : "he/his" # example: "she/her"  
+  pronouns         : #"he/his" # example: "she/her"  
   bio              : "Researcher at high speed wireline communication circuits"
   location         : "Hong Kong"
-  employer         : "The Hong Kong University of Science and Technology"
+  employer         : "HKUST"
   uri              : # URL
   email            : "jjeonaa@connect.ust.hk" 
 

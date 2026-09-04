@@ -1,6 +1,6 @@
 ---
 title: "Continuous-Time Gm-C Channel-Selection Filter for UWB"
-excerpt: "<b>90 nm CMOS &middot; 35 kHz &ndash; 259 MHz passband &middot; 5.16 dB gain</b><br/>Channel-selection filter taken from passive Chebyshev-I prototypes through ideal Gm cells and bandwidth-limited models to a transistor-level implementation.<br/><img src='/images/portfolio/gmc-uwb-filter/08-transistor-level-gmc-filter.png' style='max-width:560px;width:100%;margin-top:0.75em' alt=''>"
+excerpt: "<b>90 nm CMOS &middot; 35 kHz &ndash; 259 MHz passband &middot; 5.16 dB gain</b><br/>Channel-selection filter taken from passive Chebyshev-I prototypes through ideal Gm cells and bandwidth-limited models to a transistor-level implementation.<br/><img src='/images/portfolio/gmc-uwb-filter/08-transistor-level-gmc-filter.png' width='1167' height='459' style='max-width:560px;width:100%;margin-top:0.75em' alt=''>"
 collection: portfolio
 sort_order: 5
 header:
@@ -36,27 +36,27 @@ L<sub>f2</sub> = 96.74 nH and C<sub>f3</sub> = 9.653 pF, with a 4.142 nF high-pa
 passband gain target.
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/01-passive-uwb-schematic.png" alt="Passive UWB filter schematic" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/01-passive-uwb-schematic.png" width="1167" height="459" alt="Passive UWB filter schematic" loading="lazy">
   <figcaption>Passive UWB filter: third-order Chebyshev-I low-pass cascaded with a first-order high-pass.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/02-ideal-gm-cell.png" alt="Ideal 10 mS gm cell" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/02-ideal-gm-cell.png" width="598" height="374" alt="Ideal 10 mS gm cell" loading="lazy">
   <figcaption>Ideal gm cell (10 mS) used for the first active transformation.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/03-active-gmc-testbench.png" alt="Active UWB Gm-C testbench" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/03-active-gmc-testbench.png" width="1167" height="546" alt="Active UWB Gm-C testbench" loading="lazy">
   <figcaption>Active UWB Gm-C testbench, with the floating inductor and source resistance converted into gm cells.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/04-passive-response.png" alt="Passive filter frequency response" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/04-passive-response.png" width="1167" height="545" alt="Passive filter frequency response" loading="lazy">
   <figcaption>Passive filter frequency response, annotated with every specification point: passband gain and ripple, both −3 dB corners, and lower-corner / adjacent / alternating channel attenuation.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/05-ideal-gmc-response.png" alt="Ideal Gm-C filter frequency response" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/05-ideal-gmc-response.png" width="1167" height="545" alt="Ideal Gm-C filter frequency response" loading="lazy">
   <figcaption>Ideal Gm-C filter response — the gain stage lifts the passband from −0.83 dB to 5.19 dB with the shape preserved.</figcaption>
 </figure>
 
@@ -69,22 +69,22 @@ dominates it, and tuning the parallel capacitance recovers the corner to 262.26 
 pushing passband ripple to 2.92 dB.
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/06-bandwidth-limited-gm-cell.png" alt="Bandwidth-limited gm cell model" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/06-bandwidth-limited-gm-cell.png" width="598" height="288" alt="Bandwidth-limited gm cell model" loading="lazy">
   <figcaption>Bandwidth-limited gm cell: ideal VCCS with parallel output resistance and capacitance.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/07-optimized-gmc-filter.png" alt="Optimized Gm-C filter with bandwidth limitation" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/07-optimized-gmc-filter.png" width="1167" height="373" alt="Optimized Gm-C filter with bandwidth limitation" loading="lazy">
   <figcaption>Gm-C filter after re-optimizing the passive values around the bandwidth-limited cells.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/09-bw-limited-response.png" alt="Bandwidth-limited filter response" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/09-bw-limited-response.png" width="1167" height="631" alt="Bandwidth-limited filter response" loading="lazy">
   <figcaption>Response with bandwidth-limited gm cells simply substituted in — note the upper corner at 158.54 MHz.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/10-optimized-bw-limited-response.png" alt="Optimized bandwidth-limited filter response" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/10-optimized-bw-limited-response.png" width="1167" height="632" alt="Optimized bandwidth-limited filter response" loading="lazy">
   <figcaption>Response after optimization: the upper corner is back in specification at 262.26 MHz.</figcaption>
 </figure>
 
@@ -96,17 +96,17 @@ delivers the single-ended current. The input transistor lengths were also shorte
 cell's parallel capacitance, trading away some OTA gain to buy filter bandwidth.
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/12-ota-gm-cell.png" alt="OTA reused as the transistor-level gm cell" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/12-ota-gm-cell.png" width="1167" height="689" alt="OTA reused as the transistor-level gm cell" loading="lazy">
   <figcaption>The OTA from the midterm project, adapted into the transistor-level gm cell.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/08-transistor-level-gmc-filter.png" alt="Transistor-level Gm-C filter" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/08-transistor-level-gmc-filter.png" width="1167" height="459" alt="Transistor-level Gm-C filter" loading="lazy">
   <figcaption>Transistor-level Gm-C filter with every ideal cell replaced by the real OTA.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gmc-uwb-filter/11-transistor-level-response.png" alt="Transistor-level filter frequency response" loading="lazy">
+  <img src="/images/portfolio/gmc-uwb-filter/11-transistor-level-response.png" width="1167" height="717" alt="Transistor-level filter frequency response" loading="lazy">
   <figcaption>Transistor-level filter response. Higher nonlinearity moved the ripple outside the passband, which is what degrades the adjacent and alternating channel attenuation.</figcaption>
 </figure>
 

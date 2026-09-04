@@ -1,6 +1,6 @@
 ---
 title: "Gain-Boosted Folded-Cascode Fully-Differential OTA"
-excerpt: "<b>90 nm CMOS &middot; 81.6 dB gain &middot; 604 MHz UGF &middot; 1.93 mW</b><br/>Folded-cascode OTA with gain-boosting auxiliary amplifiers and resistive CMFB, sized from a hand-calculated current budget and iterated to spec.<br/><img src='/images/portfolio/gain-boosted-ota/01-main-amplifier.png' style='max-width:560px;width:100%;margin-top:0.75em' alt=''>"
+excerpt: "<b>90 nm CMOS &middot; 81.6 dB gain &middot; 604 MHz UGF &middot; 1.93 mW</b><br/>Folded-cascode OTA with gain-boosting auxiliary amplifiers and resistive CMFB, sized from a hand-calculated current budget and iterated to spec.<br/><img src='/images/portfolio/gain-boosted-ota/01-main-amplifier.png' width='1231' height='618' style='max-width:560px;width:100%;margin-top:0.75em' alt=''>"
 collection: portfolio
 sort_order: 4
 header:
@@ -41,12 +41,12 @@ feedback is resistor-based with a single-stage amplifier acting as the comparato
 CMFB loop simple and cheap.
 
 <figure>
-  <img src="/images/portfolio/gain-boosted-ota/01-main-amplifier.png" alt="Main folded-cascode amplifier schematic" loading="lazy">
+  <img src="/images/portfolio/gain-boosted-ota/01-main-amplifier.png" width="1231" height="618" alt="Main folded-cascode amplifier schematic" loading="lazy">
   <figcaption>Main amplifier: NMOS input differential pair with PMOS tail current source, folded into a cascode output stage.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gain-boosted-ota/02-aux-amp-and-cmfb.png" alt="Auxiliary gain-boosting amplifier and CMFB circuit" loading="lazy">
+  <img src="/images/portfolio/gain-boosted-ota/02-aux-amp-and-cmfb.png" width="1231" height="671" alt="Auxiliary gain-boosting amplifier and CMFB circuit" loading="lazy">
   <figcaption>Gain-boosting auxiliary amplifiers and the resistive common-mode feedback circuit.</figcaption>
 </figure>
 
@@ -66,17 +66,17 @@ driven by three hard constraints:
 ## Simulation results
 
 <figure>
-  <img src="/images/portfolio/gain-boosted-ota/03-open-loop-gain-and-cmrr.png" alt="Open-loop gain and phase, and CMRR" loading="lazy">
+  <img src="/images/portfolio/gain-boosted-ota/03-open-loop-gain-and-cmrr.png" width="1231" height="295" alt="Open-loop gain and phase, and CMRR" loading="lazy">
   <figcaption>(a) Low-frequency gain, UGF and phase margin — 81.59 dB, 604.33 MHz, 61.49°. (b) Common-mode rejection ratio.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gain-boosted-ota/04-psrr-and-input-noise.png" alt="PSRR and equivalent input noise" loading="lazy">
+  <img src="/images/portfolio/gain-boosted-ota/04-psrr-and-input-noise.png" width="1231" height="397" alt="PSRR and equivalent input noise" loading="lazy">
   <figcaption>(c) Power supply rejection ratio. (d) Equivalent input noise, integrating to 6.20 µV<sub>rms</sub> over 1 MHz.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/gain-boosted-ota/05-thd-fft.png" alt="THD from FFT of transient simulation" loading="lazy">
+  <img src="/images/portfolio/gain-boosted-ota/05-thd-fft.png" width="1231" height="208" alt="THD from FFT of transient simulation" loading="lazy">
   <figcaption>FFT of the transient simulation at v<sub>id</sub> = 75 % V<sub>FS</sub>, giving THD = −66.18 dB.</figcaption>
 </figure>
 

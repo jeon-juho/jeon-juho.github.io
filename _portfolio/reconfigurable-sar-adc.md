@@ -1,6 +1,6 @@
 ---
 title: "Digitally Reconfigurable 5b–9b Multi-Bit-per-Cycle SAR ADC"
-excerpt: "<b>28 nm CMOS &middot; 1.4 GS/s &middot; 8.31 ENOB &middot; 23.8 fJ/conv.-step</b><br/>MPhil thesis. Five resolution modes (5b&ndash;9b) selected purely in digital logic, with no switches added to the analog signal path. Accepted at IEEE TENCON 2026.<br/><img src='/images/portfolio/reconfigurable-sar-adc/01-architecture-timing.png' style='max-width:560px;width:100%;margin-top:0.75em' alt=''>"
+excerpt: "<b>28 nm CMOS &middot; 1.4 GS/s &middot; 8.31 ENOB &middot; 23.8 fJ/conv.-step</b><br/>MPhil thesis. Five resolution modes (5b&ndash;9b) selected purely in digital logic, with no switches added to the analog signal path. Accepted at IEEE TENCON 2026.<br/><img src='/images/portfolio/reconfigurable-sar-adc/01-architecture-timing.png' width='721' height='742' style='max-width:560px;width:100%;margin-top:0.75em' alt=''>"
 collection: portfolio
 sort_order: 1
 header:
@@ -37,7 +37,7 @@ lower modes suppress LSB-group decisions — 5b mode compresses to SAM-1b-2b-2b.
 touches nothing analog.
 
 <figure>
-  <img src="/images/portfolio/reconfigurable-sar-adc/01-architecture-timing.png" alt="Proposed architecture and per-mode timing diagrams" loading="lazy">
+  <img src="/images/portfolio/reconfigurable-sar-adc/01-architecture-timing.png" width="721" height="742" alt="Proposed architecture and per-mode timing diagrams" loading="lazy">
   <figcaption>Proposed architecture of the resolution-reconfigurable 1-then-2b/cycle SAR ADC (a) and the timing diagram for each of the five resolution modes (b).</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ remaps the thermometer-to-binary conversion and bit ordering per mode, keeping M
 aligned in the output word.
 
 <figure>
-  <img src="/images/portfolio/reconfigurable-sar-adc/02-dac-switching-rmux.png" alt="Enable-gated DAC switching architecture and register mux with enable" loading="lazy">
+  <img src="/images/portfolio/reconfigurable-sar-adc/02-dac-switching-rmux.png" width="720" height="673" alt="Enable-gated DAC switching architecture and register mux with enable" loading="lazy">
   <figcaption>Proposed DAC switching architecture with the EN encoder (a), and the register mux (RMUX) with enable (b).</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ below builds the argument with binary-weighted demonstration arrays before showi
 density.
 
 <figure>
-  <img src="/images/portfolio/reconfigurable-sar-adc/03-dac-array-comparison.png" alt="Comparison of dedicated and reconfigurable capacitive DAC arrays" loading="lazy">
+  <img src="/images/portfolio/reconfigurable-sar-adc/03-dac-array-comparison.png" width="1451" height="878" alt="Comparison of dedicated and reconfigurable capacitive DAC arrays" loading="lazy">
   <figcaption>Capacitive DAC arrays: (a) dedicated 3b DAC, (b) dedicated 7b DAC, (c) reconfigurable DAC in 3b mode with the lower four capacitors grounded, (d) reconfigurable DAC in 7b mode, and (e) the actual non-binary DAC structure of the proposed design.</figcaption>
 </figure>
 
@@ -83,19 +83,19 @@ constraint is tightest in 9b mode, where 0.5 LSB is about 0.9 mV on a 0.9 V supp
 1 GS/s in 9b mode the comparator burns 21.9 µW, roughly 74 % of it in the preamplifier.
 
 <figure>
-  <img src="/images/portfolio/reconfigurable-sar-adc/04-comparator-kickback.png" alt="Comparator schematic with preamplifier and latch" loading="lazy">
+  <img src="/images/portfolio/reconfigurable-sar-adc/04-comparator-kickback.png" width="721" height="363" alt="Comparator schematic with preamplifier and latch" loading="lazy">
   <figcaption>Proposed comparator (preamplifier + strong-arm latch) and the kickback noise paths into the capacitive DAC nodes.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/portfolio/reconfigurable-sar-adc/05-layout-dac-comparator.png" alt="Layout of the capacitive DAC and comparator" loading="lazy">
+  <img src="/images/portfolio/reconfigurable-sar-adc/05-layout-dac-comparator.png" width="720" height="322" alt="Layout of the capacitive DAC and comparator" loading="lazy">
   <figcaption>Layout view of the capacitive DAC (a) and the comparator (b). These blocks were simulated from post-layout extracted netlists including parasitic R and C.</figcaption>
 </figure>
 
 ## Results
 
 <figure>
-  <img src="/images/portfolio/reconfigurable-sar-adc/06-fft-all-modes.png" alt="FFT spectra across all five resolution modes" loading="lazy">
+  <img src="/images/portfolio/reconfigurable-sar-adc/06-fft-all-modes.png" width="720" height="519" alt="FFT spectra across all five resolution modes" loading="lazy">
   <figcaption>Simulated Nyquist-rate FFT spectra across all five resolution modes. The noise floor drops progressively from 5b to 9b, and harmonic spurs become more distinct as the linearity requirement of the high-resolution-optimized DAC and comparator tightens.</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ These are the inherent cost of sharing hardware across a wide resolution range w
 reconfiguration — the quantitative counterpart to the "no switches in the signal path" benefit.
 
 <figure>
-  <img src="/images/portfolio/reconfigurable-sar-adc/07-fom-vs-prior-art.png" alt="Walden and Schreier figure of merit across resolution modes against prior art" loading="lazy">
+  <img src="/images/portfolio/reconfigurable-sar-adc/07-fom-vs-prior-art.png" width="721" height="1028" alt="Walden and Schreier figure of merit across resolution modes against prior art" loading="lazy">
   <figcaption>Walden FoM<sub>W</sub> and Schreier FoM<sub>S</sub> across resolution modes, plotted against selected prior art from the ISSCC/VLSI ADC survey.</figcaption>
 </figure>
 

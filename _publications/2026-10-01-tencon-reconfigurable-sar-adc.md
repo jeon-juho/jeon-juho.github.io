@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-tencon-reconfigurable-sar-adc
 excerpt: 'A 28 nm CMOS SAR ADC whose resolution is reconfigurable from 5 to 9 bits entirely through digital logic, with no switches added to the analog signal path — 8.31 ENOB at 1.4 GS/s and 23.8 fJ/conversion-step in 9b mode.'
 date: 2026-10-01
-venue: 'IEEE Region 10 Conference (TENCON) 2026 — accepted'
+venue: 'IEEE Region 10 Conference (TENCON)'
 citation: 'J. Jeon and C. P. Yue, &quot;Digitally Reconfigurable Resolution Multi-Bit-per-Cycle SAR ADC: Design Trade-off Considerations,&quot; <i>IEEE Region 10 Conference (TENCON) 2026</i>, accepted.'
 ---
 

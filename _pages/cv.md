@@ -14,10 +14,8 @@ redirect_from:
 Education
 ======
 * **M.Phil. in Electronic and Computer Engineering**, HKUST, Sep 2024 – Dec 2026 (expected)
-  * GPA 3.717 / 4.30
   * Advisor: Prof. Chik Patrick Yue
 * **B.Eng. in Electronic Engineering**, minor in Information Technology, HKUST, Sep 2017 – Jun 2024
-  * GPA 3.09 / 4.30
   * Academic leave: Sep 2019 – Aug 2021 (mandatory military service, Republic of Korea); Feb 2022 – Feb 2023 (full-time internship, Deloitte Advisory)
 
 Publications

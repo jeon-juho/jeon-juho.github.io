@@ -26,6 +26,7 @@ Research interests
 ------
 * **Data converters** — SAR and multi-bit-per-cycle ADCs, reconfigurable and time-interleaved architectures
 * **Wireline communication circuits** — ADC-DSP-based receivers, SerDes front-ends
+* **Optoelectronic circuits** — optical and electronic co-design for next-generation interconnect and computation
 * **Analog / mixed-signal design** — comparators, capacitive DACs, low-noise amplification, calibration
 
 Selected projects

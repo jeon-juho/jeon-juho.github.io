@@ -26,7 +26,7 @@ author:
   name             : "Juho Jeon"
   pronouns         : #"he/his" # example: "she/her"  
   bio              : "MPhil, HKUST. Analog/mixed-signal IC design for high-speed wireline links."
-  location         : "Hong Kong"
+  location         : "South Korea"
   employer         : "HKUST"
   uri              : # URL
   email            : "jjeonaa@connect.ust.hk" 
@@ -180,6 +180,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - local
+  - memory
   - log
   - node_modules
   - package.json*

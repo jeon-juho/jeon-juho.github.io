@@ -18,3 +18,7 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Source documents for the site (CV with phone number, group reports naming classmates).
+# Not published — remove this line if you want them in the public repo.
+memory/

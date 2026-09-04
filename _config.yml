@@ -22,7 +22,7 @@ repository               : "jeon-juho/jeon-juho.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Juho Jeon"
   pronouns         : #"he/his" # example: "she/her"  
   bio              : "MPhil, HKUST. Analog/mixed-signal IC design for high-speed wireline links."
@@ -138,7 +138,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
+og_image                 : "/images/profile.jpg" # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
